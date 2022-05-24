@@ -1,2 +1,212 @@
 @import "base.scss";
 @import "header.scss";
+@import "footer.scss";
+
+
+.title {
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.sec {
+  font-weight: bold;
+  &-title {
+    font-size: 50px;
+    &-sub {
+      font-size: 25px;
+      margin-left: 25px;
+    }
+  }
+  &-message-text {
+    padding-top: 20px;
+    margin-left: 150px;
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 40px 140px;
+  margin: 50px auto 0;
+  border: 1px solid #66421F;
+}
+
+
+
+// -----------------------------------
+// TOPスライド部分
+// -----------------------------------
+.top-slide {
+  padding: 50px 0;
+  background: #FAF0E6;
+  &-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  &-content {
+    display: block;
+    width: 800px;
+    height: 470px;
+    flex-shrink: 0;
+    margin: 0 10px;   
+  }
+  &-img {
+    width: 100%;
+    height: 420px;
+    background: url(../../img/topslide-img-1.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  &-title {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.news {
+  &-container {
+    background: white;
+    width: 90%;
+    padding: 40px 30px;
+    margin: 130px auto 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-content {
+    display: block;
+    dl {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    dt {
+      width: 20%;
+      margin-right: 30px;
+    }
+    dd {
+      width: 80%;
+    }
+  }
+}
+
+
+// -------------------------------------
+// New Item
+// -------------------------------------
+.new-item {
+  padding: 50px 60px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-content {
+    display: block;
+    width: 250px;
+    height: 475px;
+    background: white;
+  }
+  &-img {
+    width: 100%;
+    height: 375px;
+    background: url(../../img/newitem-img-1.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  &-detail {
+    padding: 15px 25px;
+  }
+  &-price {
+    margin-top: 25px;
+  }
+}
+
+// ----------------------------------
+// Pick Up
+// ----------------------------------
+.pick-up {
+  padding: 50px 60px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-content {
+    display: block;
+    width: 250px;
+    height: 475px;
+    background: white;
+  }
+  &-img {
+    width: 100%;
+    height: 375px;
+    background: url(../../img/pickup-img-1.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  &-text {
+    padding: 15px 35px 30px;
+    background: pink;
+  }
+}
+
+// -----------------------------------
+// Instagram
+// -----------------------------------
+.instagram {
+  padding: 50px 60px;
+  &-container {
+    width: 80%;
+    padding: 30px 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: pink;
+  }
+  &-content {
+    display: block;
+    width: 300px;
+    height: 300px;
+  }
+  &-img {
+    width: 100%;
+    height: 100%;
+    background: url(../../img/insta-img-1.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.follow {
+  &-container {
+    width: 80%;
+    background: pink;
+    padding: 50px 100px;
+    margin: 0 auto;
+    display: flex;
+  }
+}
+
+.id {
+  width: 40%;
+  padding: 80px 200px 0;
+  background: white;
+}
+
+
+// ------------------------------------
+// Popular Tag
+// ------------------------------------
+.tag {
+  padding: 50px 60px;
+  background: #FAE6E6;
+  &-content {
+    display: block;
+    width: 250px;
+    border: 1px solid #66421F;
+    border-radius: 40px;
+    padding: 20px 60px;
+    text-align: center;
+  }
+}

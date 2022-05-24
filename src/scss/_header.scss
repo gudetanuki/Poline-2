@@ -1,26 +1,20 @@
 .header {
   padding: 40px 60px;
-  background: pink;
   &-container {
-    // padding: 10px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
-    background: silver;
   }
   &-menu {
-    border: 1px solid #333;
     padding: 10px 20px;
     display: flex;
     li {
-      background: white;
       margin-right: 50px;
-
     }
   }
   .store-link {
-    background: white;
     margin-right: 0;
-    margin-left: 100px;
+    margin-left: 220px;
     span {
       vertical-align: top;
     }
