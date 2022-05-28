@@ -201,6 +201,20 @@
 .tag {
   padding: 50px 60px;
   background: #FAE6E6;
+  &-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  &-flex-4 {
+    display: flex;
+    justify-content: space-between; 
+  }
+  &-flex-3 {
+    width: 75%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+  }
   &-content {
     display: block;
     width: 250px;
@@ -208,5 +222,10 @@
     border-radius: 40px;
     padding: 20px 60px;
     text-align: center;
+    transition: all 1s;
+    &:hover {
+      color: #fff;
+      background-color: #66421F;
+    }
   }
 }

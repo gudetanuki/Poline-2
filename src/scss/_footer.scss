@@ -1,12 +1,38 @@
 .footer {
   padding: 50px 110px 20px;
+  &-container {
+    display: flex;
+  }
 }
 
 .access {
-  background: silver;
-  
+  width: 50%;
+  &-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  dt {
+    width: 20%;
+    margin-right: 30px;
+    font-weight: bold;
+  }
+  dd {
+    width: 80%;
+  }
+}
+
+.footer-menu {
+  width: 50%;
+  &-sub {
+    margin-top: 50px;
+  }
+  li {
+    margin-bottom: 20px;
+  }
 }
 
 .copy {
   text-align: center;
+  margin-top: 70px;
 }
