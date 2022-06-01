@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
-html, body {
+html {
+  font-size: 62.5%;
+}
+
+body {
   font-family: "Times New Roman", Times, serif;
   color: #66421F;
 }
@@ -107,10 +111,17 @@ img {
 }
 
 .button {
-  display: inline-block;
-  padding: 40px 140px;
-  margin: 50px auto 0;
+  display: block;
+  width: 400px;
   border: 1px solid #66421F;
+  padding: 40px 0px;
+  margin: 50px auto 0;
+  text-align: center;
+  transition: all 1s;
+}
+.button:hover {
+  color: #fff;
+  background-color: #66421F;
 }
 
 .top-slide {
@@ -216,7 +227,6 @@ img {
 }
 .pick-up-text {
   padding: 15px 35px 30px;
-  background: pink;
 }
 
 .instagram {
@@ -224,17 +234,17 @@ img {
 }
 .instagram-container {
   width: 80%;
-  padding: 30px 10px;
+  padding: 0 10px 30px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: pink;
 }
 .instagram-content {
   display: block;
   width: 300px;
   height: 300px;
+  margin-top: 30px;
 }
 .instagram-img {
   width: 100%;
@@ -246,7 +256,6 @@ img {
 
 .follow-container {
   width: 80%;
-  background: pink;
   padding: 50px 100px;
   margin: 0 auto;
   display: flex;
@@ -255,7 +264,6 @@ img {
 .id {
   width: 40%;
   padding: 80px 200px 0;
-  background: white;
 }
 
 .tag {

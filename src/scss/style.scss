@@ -3,32 +3,8 @@
 @import "footer.scss";
 
 
-.title {
-  margin-bottom: 50px;
-  display: flex;
-}
 
-.sec {
-  font-weight: bold;
-  &-title {
-    font-size: 50px;
-    &-sub {
-      font-size: 25px;
-      margin-left: 25px;
-    }
-  }
-  &-message-text {
-    padding-top: 20px;
-    margin-left: 150px;
-  }
-}
 
-.button {
-  display: inline-block;
-  padding: 40px 140px;
-  margin: 50px auto 0;
-  border: 1px solid #66421F;
-}
 
 
 
@@ -146,7 +122,6 @@
   }
   &-text {
     padding: 15px 35px 30px;
-    background: pink;
   }
 }
 
@@ -157,17 +132,17 @@
   padding: 50px 60px;
   &-container {
     width: 80%;
-    padding: 30px 10px;
+    padding: 0 10px 30px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background: pink;
   }
   &-content {
     display: block;
     width: 300px;
     height: 300px;
+    margin-top: 30px;
   }
   &-img {
     width: 100%;
@@ -181,7 +156,6 @@
 .follow {
   &-container {
     width: 80%;
-    background: pink;
     padding: 50px 100px;
     margin: 0 auto;
     display: flex;
@@ -191,7 +165,6 @@
 .id {
   width: 40%;
   padding: 80px 200px 0;
-  background: white;
 }
 
 
